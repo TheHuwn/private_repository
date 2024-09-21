@@ -1,0 +1,77 @@
+.account-info {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #f04d56;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.save-btn,
+.delete-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.save-btn {
+  width: 170px;
+  height: 40px;
+  background-color: #f04d56;
+  color: white;
+}
+
+.delete-btn {
+  width: 170px;
+  height: 40px;
+  background-color: white;
+  color: #f04d56;
+  border: 1px solid #f04d56;
+}
+
+.save-btn:hover,
+.delete-btn:hover {
+  opacity: 0.8;
+}
